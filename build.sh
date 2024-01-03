@@ -103,8 +103,8 @@ if [[ "$WITH_UPX" == 1 && -x "$(which upx 2>/dev/null)" ]]
         upx -9 --best release/zstd 2>/dev/null
 fi
 
-echo "= create release tar.zstd"
-tar --zstd -acf zstd-static-v${zstd_version}-${platform_arch}.tar.zstd release
+echo "= create release tar.xz"
+tar --xz -acf zstd-static-v${zstd_version}-${platform_arch}.tar.xz release
 
 if [ "$NO_CLEANUP" != 1 ]
     then
