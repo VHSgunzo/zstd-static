@@ -1,6 +1,6 @@
 # [zstd-static](https://github.com/VHSgunzo/zstd-static/releases/latest)
 
-* Statically compiled [zstd](https://github.com/facebook/zstd), a set of tools for FUSE filesystem to mount squashfs archives for use in [runimage](https://github.com/VHSgunzo/runimage)
+* Statically compiled [zstd](https://github.com/facebook/zstd), tool for working with `ZSTD` archives for use in [runimage](https://github.com/VHSgunzo/runimage)
 * Check [Releases](https://github.com/VHSgunzo/zstd-static/releases/latest) for `x86_64-Linux` & `aarch64-Linux` PreCompiled Binaries: https://github.com/VHSgunzo/zstd-static/releases/latest
 - #### To Build it on your Own:
 ```bash
